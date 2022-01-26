@@ -5,7 +5,7 @@ IDE:
 	
 Target board:  
 	ESP32.  
-
+![Image](https://raw.githubusercontent.com/NOA-Labs/LoRa-E22-900T-Test/master/img-folder/esp32-gpio.png)  
 in System_cfg.h  
 	...  
 	#define SYS_LORA_IS_HOST_MODE               1  
