@@ -1,5 +1,11 @@
 #This is the test code for LoRa E22-900T
 
+IDE:  
+	vscode + platformide + arduino  
+	
+Target board:  
+	ESP32.  
+
 in System_cfg.h  
 	...  
 	#define SYS_LORA_IS_HOST_MODE               1  

@@ -11,6 +11,11 @@ void setup() {
     Serial.print(s);
     Serial.printf("# system version: %s #", (const char *)FW_BUILD_VERSION);
     Serial.print(s);
+    uint32_t psramSize = ESP.getPsramSize();
+    uint32_t chipFlashSize = ESP.getFlashChipSize();
+    Serial.printf("     PSRAM size is: %d.\r\n", psramSize);
+    Serial.printf("     Chip Flash Size is: %d.\r\n", chipFlashSize);
+
     app_lora_task_create();
     // app_joystick_task_create();
     // enableLoopWDT();
