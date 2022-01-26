@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "esp_intr_alloc.h": "c",
+        "esp32-hal-adc.h": "c"
+    }
+}
