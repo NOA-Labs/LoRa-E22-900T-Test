@@ -5,6 +5,7 @@ IDE:
 	
 Target board:  
 	ESP32.  
+	url: https://docs.ai-thinker.com/en/esp32/boards/nodemcu_32s  
 ![Image](https://raw.githubusercontent.com/NOA-Labs/LoRa-E22-900T-Test/master/img-folder/esp32-gpio.png)  
 in System_cfg.h  
 	...  
